@@ -1,0 +1,421 @@
+{
+  "coverage_label": "before",
+  "coverage_percent": 21.5,
+  "gaps": [
+    {
+      "end_line": 26,
+      "file": "app/payments.py",
+      "function": "luhn_check",
+      "id": "G-001",
+      "missing_lines": [
+        9,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "priority": "high",
+      "reason": "Public function, 13 untested lines, named in README",
+      "score": 36,
+      "start_line": 9
+    },
+    {
+      "end_line": 50,
+      "file": "app/inventory.py",
+      "function": "Inventory.remove_stock",
+      "id": "G-002",
+      "missing_lines": [
+        36,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "priority": "high",
+      "reason": "Public function, 9 untested lines, named in README",
+      "score": 28,
+      "start_line": 36
+    },
+    {
+      "end_line": 66,
+      "file": "app/users.py",
+      "function": "register_user",
+      "id": "G-003",
+      "missing_lines": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "priority": "high",
+      "reason": "Public function, 9 untested lines, named in README",
+      "score": 28,
+      "start_line": 44
+    },
+    {
+      "end_line": 66,
+      "file": "app/payments.py",
+      "function": "split_bill",
+      "id": "G-004",
+      "missing_lines": [
+        53,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "priority": "high",
+      "reason": "Public function, 8 untested lines, named in README",
+      "score": 26,
+      "start_line": 53
+    },
+    {
+      "end_line": 81,
+      "file": "app/payments.py",
+      "function": "refund_amount",
+      "id": "G-005",
+      "missing_lines": [
+        69,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "priority": "high",
+      "reason": "Public function, 8 untested lines, named in README",
+      "score": 26,
+      "start_line": 69
+    },
+    {
+      "end_line": 34,
+      "file": "app/inventory.py",
+      "function": "Inventory.add_stock",
+      "id": "G-006",
+      "missing_lines": [
+        25,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "priority": "high",
+      "reason": "Public function, 6 untested lines, named in README",
+      "score": 22,
+      "start_line": 25
+    },
+    {
+      "end_line": 50,
+      "file": "app/payments.py",
+      "function": "processing_fee",
+      "id": "G-007",
+      "missing_lines": [
+        41,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "priority": "high",
+      "reason": "Public function, 6 untested lines, named in README",
+      "score": 22,
+      "start_line": 41
+    },
+    {
+      "end_line": 32,
+      "file": "app/orders.py",
+      "function": "calculate_subtotal",
+      "id": "G-008",
+      "missing_lines": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "priority": "high",
+      "reason": "Public function, 5 untested lines, named in README",
+      "score": 20,
+      "start_line": 22
+    },
+    {
+      "end_line": 38,
+      "file": "app/payments.py",
+      "function": "mask_card",
+      "id": "G-009",
+      "missing_lines": [
+        29,
+        35,
+        36,
+        37,
+        38
+      ],
+      "priority": "high",
+      "reason": "Public function, 5 untested lines, named in README",
+      "score": 20,
+      "start_line": 29
+    },
+    {
+      "end_line": 77,
+      "file": "app/orders.py",
+      "function": "calculate_total",
+      "id": "G-010",
+      "missing_lines": [
+        74,
+        75,
+        76,
+        77
+      ],
+      "priority": "medium",
+      "reason": "Public function, 4 untested lines, named in README",
+      "score": 18,
+      "start_line": 67
+    },
+    {
+      "end_line": 50,
+      "file": "app/utils.py",
+      "function": "format_name",
+      "id": "G-011",
+      "missing_lines": [
+        47,
+        48,
+        49,
+        50
+      ],
+      "priority": "medium",
+      "reason": "Public function, 4 untested lines, named in README",
+      "score": 18,
+      "start_line": 42
+    },
+    {
+      "end_line": 43,
+      "file": "app/orders.py",
+      "function": "apply_discount",
+      "id": "G-012",
+      "missing_lines": [
+        41,
+        42,
+        43
+      ],
+      "priority": "medium",
+      "reason": "Public function, 3 untested lines, named in README",
+      "score": 16,
+      "start_line": 35
+    },
+    {
+      "end_line": 64,
+      "file": "app/orders.py",
+      "function": "calculate_tax",
+      "id": "G-013",
+      "missing_lines": [
+        62,
+        63,
+        64
+      ],
+      "priority": "medium",
+      "reason": "Public function, 3 untested lines, named in README",
+      "score": 16,
+      "start_line": 57
+    },
+    {
+      "end_line": 31,
+      "file": "app/users.py",
+      "function": "validate_username",
+      "id": "G-014",
+      "missing_lines": [
+        29,
+        30,
+        31
+      ],
+      "priority": "medium",
+      "reason": "Public function, 3 untested lines, named in README",
+      "score": 16,
+      "start_line": 24
+    },
+    {
+      "end_line": 41,
+      "file": "app/users.py",
+      "function": "is_adult",
+      "id": "G-015",
+      "missing_lines": [
+        39,
+        40,
+        41
+      ],
+      "priority": "medium",
+      "reason": "Public function, 3 untested lines, named in README",
+      "score": 16,
+      "start_line": 34
+    },
+    {
+      "end_line": 13,
+      "file": "app/utils.py",
+      "function": "round_money",
+      "id": "G-016",
+      "missing_lines": [
+        11,
+        12,
+        13
+      ],
+      "priority": "medium",
+      "reason": "Public function, 3 untested lines, named in README",
+      "score": 16,
+      "start_line": 6
+    },
+    {
+      "end_line": 54,
+      "file": "app/inventory.py",
+      "function": "Inventory.count",
+      "id": "G-017",
+      "missing_lines": [
+        52,
+        54
+      ],
+      "priority": "medium",
+      "reason": "Public function, 2 untested lines, named in README",
+      "score": 14,
+      "start_line": 52
+    },
+    {
+      "end_line": 58,
+      "file": "app/inventory.py",
+      "function": "Inventory.low_stock",
+      "id": "G-018",
+      "missing_lines": [
+        56,
+        58
+      ],
+      "priority": "medium",
+      "reason": "Public function, 2 untested lines, named in README",
+      "score": 14,
+      "start_line": 56
+    },
+    {
+      "end_line": 65,
+      "file": "app/inventory.py",
+      "function": "Inventory.total_value",
+      "id": "G-019",
+      "missing_lines": [
+        60,
+        65
+      ],
+      "priority": "medium",
+      "reason": "Public function, 2 untested lines, named in README",
+      "score": 14,
+      "start_line": 60
+    },
+    {
+      "end_line": 54,
+      "file": "app/orders.py",
+      "function": "shipping_cost",
+      "id": "G-020",
+      "missing_lines": [
+        54
+      ],
+      "priority": "medium",
+      "reason": "Public function, 1 untested line, named in README",
+      "score": 12,
+      "start_line": 46
+    },
+    {
+      "end_line": 21,
+      "file": "app/users.py",
+      "function": "is_valid_email",
+      "id": "G-021",
+      "missing_lines": [
+        21
+      ],
+      "priority": "medium",
+      "reason": "Public function, 1 untested line, named in README",
+      "score": 12,
+      "start_line": 16
+    },
+    {
+      "end_line": 23,
+      "file": "app/utils.py",
+      "function": "clamp",
+      "id": "G-022",
+      "missing_lines": [
+        22
+      ],
+      "priority": "medium",
+      "reason": "Public function, 1 untested line, named in README",
+      "score": 12,
+      "start_line": 16
+    },
+    {
+      "end_line": 23,
+      "file": "app/inventory.py",
+      "function": "Inventory.__init__",
+      "id": "G-023",
+      "missing_lines": [
+        14,
+        20,
+        21,
+        22,
+        23
+      ],
+      "priority": "medium",
+      "reason": "Public function, 5 untested lines",
+      "score": 10,
+      "start_line": 14
+    },
+    {
+      "end_line": 19,
+      "file": "app/orders.py",
+      "function": "_validate_line",
+      "id": "G-024",
+      "missing_lines": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "priority": "low",
+      "reason": "Private function, 5 untested lines",
+      "score": 5,
+      "start_line": 10
+    },
+    {
+      "end_line": 39,
+      "file": "app/utils.py",
+      "function": "_collapse_spaces",
+      "id": "G-025",
+      "missing_lines": [
+        39
+      ],
+      "priority": "low",
+      "reason": "Private function, 1 untested line",
+      "score": 1,
+      "start_line": 37
+    }
+  ],
+  "project": "sample_project",
+  "src": "app",
+  "unattributed_missing_lines": 5
+}

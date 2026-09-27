@@ -1,0 +1,27 @@
+{
+  "errors": 0,
+  "failed": 0,
+  "failures": [],
+  "failures_by_file": {},
+  "generated": {
+    "errors": 0,
+    "failed": 0,
+    "pass_rate": 0.994,
+    "passed": 160,
+    "skipped": 0,
+    "total": 161,
+    "xfailed": 1
+  },
+  "passed": 164,
+  "skipped": 0,
+  "skips": [],
+  "total": 165,
+  "xfailed": 1,
+  "xfails": [
+    {
+      "file": "tests/generated/test_orders.py",
+      "reason": "Possible bug: docs say a discount over 100% must raise ValueError, code returns a negative price",
+      "test": "tests/generated/test_orders.py::test_apply_discount_over_100_raises"
+    }
+  ]
+}
