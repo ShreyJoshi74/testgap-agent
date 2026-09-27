@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="1" failures="3" skipped="4" tests="11" time="0.346" timestamp="2026-09-27T17:21:11.684442+05:30" hostname="DESKTOP-18FEPEM"><testcase classname="" name="tests.fixtures._gen_junit.tests.generated.test_broken_import" time="0.000"><error message="collection failure">ImportError while importing test module 'D:\Projects\bob_hack\tests\fixtures\_gen_junit\tests\generated\test_broken_import.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Dell\AppData\Local\Programs\Python\Python311\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\fixtures\_gen_junit\tests\generated\test_broken_import.py:2: in &lt;module&gt;
+    from nonexistent_module_xyz import something  # noqa
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   ModuleNotFoundError: No module named 'nonexistent_module_xyz'</error></testcase><testcase classname="tests.fixtures._gen_junit.test_real_cases" name="test_plain_pass" time="0.149" /><testcase classname="tests.fixtures._gen_junit.test_real_cases" name="test_plain_fail" time="0.001"><failure message="AssertionError: intentional failure&#10;assert 1 == 2">def test_plain_fail():
+&gt;       assert 1 == 2, "intentional failure"
+E       AssertionError: intentional failure
+E       assert 1 == 2
+
+tests\fixtures\_gen_junit\test_real_cases.py:12: AssertionError</failure></testcase><testcase classname="tests.fixtures._gen_junit.test_real_cases" name="test_plain_error" time="0.001"><failure message="RuntimeError: unexpected error">def test_plain_error():
+&gt;       raise RuntimeError("unexpected error")
+E       RuntimeError: unexpected error
+
+tests\fixtures\_gen_junit\test_real_cases.py:17: RuntimeError</failure></testcase><testcase classname="tests.fixtures._gen_junit.test_real_cases" name="test_plain_skip" time="0.001"><skipped type="pytest.skip" message="Could not fix automatically: depends on database state">D:\Projects\bob_hack\tests\fixtures\_gen_junit\test_real_cases.py:22: Could not fix automatically: depends on database state</skipped></testcase><testcase classname="tests.fixtures._gen_junit.test_real_cases" name="test_plain_xfail" time="0.001"><skipped type="pytest.xfail" message="Possible bug: README says max discount is 100%, code accepts 150%" /></testcase><testcase classname="tests.fixtures._gen_junit.test_real_cases.TestInsideClass" name="test_method_pass" time="0.001" /><testcase classname="tests.fixtures._gen_junit.tests.generated.test_orders" name="test_apply_discount_over_100_percent" time="0.002"><failure message="AssertionError: AssertionError: expected ValueError&#10;assert False">def test_apply_discount_over_100_percent():
+&gt;       assert False, "AssertionError: expected ValueError"
+E       AssertionError: AssertionError: expected ValueError
+E       assert False
+
+tests\fixtures\_gen_junit\tests\generated\test_orders.py:6: AssertionError</failure></testcase><testcase classname="tests.fixtures._gen_junit.tests.generated.test_orders" name="test_apply_discount_rejects_over_100" time="0.001"><skipped type="pytest.xfail" message="Possible bug: README says max discount is 100%, code accepts 150%" /></testcase><testcase classname="tests.fixtures._gen_junit.tests.generated.test_users" name="test_register_user_ok" time="0.001" /><testcase classname="tests.fixtures._gen_junit.tests.generated.test_users" name="test_register_user_duplicate_email" time="0.001"><skipped type="pytest.skip" message="Could not fix automatically: depends on database state">D:\Projects\bob_hack\tests\fixtures\_gen_junit\tests\generated\test_users.py:10: Could not fix automatically: depends on database state</skipped></testcase></testsuite></testsuites>
