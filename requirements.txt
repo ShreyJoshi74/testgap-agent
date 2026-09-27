@@ -1,0 +1,7 @@
+# TestGap Agent — Python dependencies
+# Keep in sync with pyproject.toml [project.dependencies]
+pytest
+pytest-cov>=4
+coverage>=7
+Faker
+pytest-timeout

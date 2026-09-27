@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "testgap"
+version = "0.1.0"
+description = "Automatically find untested Python code and write tests for it using IBM Bob 2.0."
+requires-python = ">=3.11"
+dependencies = [
+    "pytest",
+    "pytest-cov>=4",
+    "coverage>=7",
+    "Faker",
+    "pytest-timeout",
+]
+
+[project.scripts]
+testgap = "testgap.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
